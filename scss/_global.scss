@@ -37,9 +37,12 @@ h3 {
   font-size: 2rem;
 }
 
-p.lead {
+p,
+.ul-as-p {
   font-size: 1.15rem;
   font-weight: 400;
+  text-align: justify;
+  color: $info;
 }
 
 .subheading {
@@ -47,6 +50,10 @@ p.lead {
   font-weight: 500;
   @include heading-font;
   font-size: 1.5rem;
+}
+
+.green-text {
+  color: $success;
 }
 
 .social-icons {
@@ -117,7 +124,7 @@ p.lead {
   }
 
   .open-book-bg:before {
-      background-color: #8B4513;
+      background-color: $secondary;
       border-radius: 0.25em;
       bottom: -1em;
       content: '';

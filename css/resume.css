@@ -1,7 +1,6 @@
 /*!
  * Start Bootstrap - Kiwi-Du v0.0.8 (kiwi-du.com)
- * Copyright 2013-2020 Dmitrii Bludov
- * Licensed under  (https://github.com/BlackrockDigital/kiwi-read-website/blob/master/LICENSE)
+ * Copyright 2019-2020 Dmitrii Bludov
  */
 
 body {
@@ -42,9 +41,12 @@ h3 {
   font-size: 2rem;
 }
 
-p.lead {
+p,
+.ul-as-p {
   font-size: 1.15rem;
   font-weight: 400;
+  text-align: justify;
+  color: #211a1e;
 }
 
 .subheading {
@@ -52,6 +54,10 @@ p.lead {
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
+}
+
+.green-text {
+  color: #9bc53d;
 }
 
 .social-icons a {
@@ -72,7 +78,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #e53939;
 }
 
 .dev-icons {
@@ -80,7 +86,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #e53939;
 }
 
 .book-sample-title {
@@ -119,7 +125,7 @@ p.lead {
     position: relative;
   }
   .open-book-bg:before {
-    background-color: #8B4513;
+    background-color: #fde74c;
     border-radius: 0.25em;
     bottom: -1em;
     content: '';
@@ -157,7 +163,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #b9d778;
 }
 
 @media (min-width: 992px) {
@@ -179,7 +185,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.28);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -227,17 +233,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #e53939 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #e53939 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #e53939;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #b91818;
 }

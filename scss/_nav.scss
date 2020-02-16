@@ -6,7 +6,7 @@
   }
   .navbar-toggler {
     &:focus {
-      outline-color: lighten($primary, 15%);
+      outline-color: lighten($green, 15%);
     }
   }
 }
@@ -31,7 +31,7 @@
       .img-profile {
         max-width: 10rem;
         max-height: 10rem;
-        border: 0.5rem solid fade-out($white, 0.8);
+        box-shadow: 6px 6px rgba(0, 0, 0, 0.28);
       }
     }
     .navbar-collapse {
