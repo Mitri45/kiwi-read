@@ -49,6 +49,10 @@ p,
   color: #211a1e;
 }
 
+.blockquote {
+  text-align: center;
+}
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -116,6 +120,16 @@ p,
 
 .open-book-bg * {
   position: relative;
+}
+
+/*** AUTHORS AVATARS ***/
+.author-img {
+  border-radius: 50%;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 5px;
 }
 
 /*** MEDIA QUERIES ***/
