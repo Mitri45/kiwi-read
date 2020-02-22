@@ -4,12 +4,14 @@
     letter-spacing: 0.05rem;
     text-transform: uppercase;
   }
+
   .navbar-toggler {
     &:focus {
       outline-color: lighten($green, 15%);
     }
   }
 }
+
 
 @media (min-width: 992px) {
   #sideNav {
