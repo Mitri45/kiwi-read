@@ -206,10 +206,30 @@ figcaption {
 
 @media only screen and ( max-width: 87em ) {
 
+  h1, h2, h3 {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
   .front-page-text {
     flex-flow: row wrap;
   }
   .svg-star {
   margin-top: 0;
 }
+
+  .about-authors-wrapper {
+  flex-flow: column nowrap;  
+}
+
+  #book-wrapper {
+    max-width: 100%;
+  }
+
+   .open-book-bg {
+     padding: 1em;
+   }
 }
