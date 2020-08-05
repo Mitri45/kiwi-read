@@ -9,7 +9,7 @@ body {
   color: #868e96;
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   body {
     padding-top: 0;
     padding-left: 17rem;
@@ -200,7 +200,7 @@ figcaption {
 }
 
 /*** MEDIA QUERIES FOR STAR***/
-@media only screen and (max-width: 87em) {
+@media only screen and (max-width: 900px) {
   h1, h2, h3 {
     text-align: center;
   }
@@ -212,6 +212,7 @@ figcaption {
   }
   .svg-star {
     margin-top: 0;
+    max-width: 400px;
   }
   .about-authors-wrapper {
     flex-flow: column nowrap;
